@@ -1,0 +1,256 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #133e38, #95e2d8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Header styling */
+
+.cv{
+    
+    background-color: #ddd;
+    padding: 5px;
+    margin: 10px;
+    width: 800px;
+    border-radius: 5px;
+}
+.cv-tabel{
+    
+    background-color: #ddd;
+    padding: 5px;
+    margin: 8px;
+    width: 800px;
+    border-radius: 5px;
+}
+
+header {
+    background-color: #3d887e;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin: 0 0 0 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    
+}
+
+header img {
+    max-width: 150px;
+    border-radius: 1px;
+    width: 70px;
+    height: 90px;
+}
+
+/* Navigation styling */
+.navigasi {
+    background-color: #10302b;
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.navigasi ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigasi li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigasi a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: color 0.3s;
+}
+
+.navigasi a:hover {
+    color: #4cb5aa; 
+}
+
+/* Main content styling */
+
+/* Gaya container */
+.container {
+    background-color: #4cb5aa;
+    padding: 48px;
+    border-radius: 5px;
+    margin: 5px 2px 5px 2px;
+    text-align: center; /* Tombol submit di tengah */
+}
+
+/* Gaya judul */
+.title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #133e38, #95e2d8);
+}
+
+/* Gaya user-details */
+.user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+/* Gaya input-inbox */
+.input-inbox {
+    margin-bottom: 15px;
+    width: calc(50% - 20px); /* Lebar diubah agar tetap dalam satu baris */
+}
+
+.input-inbox input, .input-inbox textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Gaya gender-details */
+.gender-details {
+    text-align: center;
+    margin-top: 10px;
+}
+.gender-title {
+    
+    font-weight: 500;
+    display: block;
+    padding: 10px;
+}
+.gender.input {
+    padding: 10px;
+}
+
+/* Gaya category */
+.category label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Gaya tombol submit */
+.button input {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #4cb5aa;
+    color: #fff;
+    cursor: pointer;
+}
+.data{
+    margin: 10px 0 10px 0;
+    border: #0f6ba8 solid 5px;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.data h2{
+    color: #10302b;
+    text-align: center;
+    border-bottom:rgb(5, 0, 1) solid 2px;
+}
+
+.data table {
+    width: 100%;
+    border: 0;
+    margin-right: 200px;
+}
+
+.data tr{
+    background-color: #4cb5aa;
+
+}
+
+.data th{
+    background-color: rgb(3, 65, 101);
+    color: aqua;
+    border-radius: 5px;
+}
+
+.data td{
+    border-radius: 5px;
+    text-align: center;
+}
+
+form .button input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    
+} 
+button {
+    background-color: #1a3d37;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 10%;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #8ca4ac;
+}
+
+
+aside {
+    flex-basis: 20%;
+    background-color: #FF5733;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+article {
+    flex-basis: 75%;
+}
+
+/* Footer styling */
+footer p {
+    color: #ffffff;
+    text-align: center;
+
+}
+
+footer {
+    padding: 1px;
+    margin: 0 2px 0 2px;;
+    background-color: #10302b;
+    border-radius: 5px;
+    align-items: center;
+
+
+}
